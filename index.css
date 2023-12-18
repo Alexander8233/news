@@ -1,0 +1,523 @@
+@font-face {
+  font-family: 'Inter-Light';
+  font-weight: 400;
+  src: url('Inter-Light.ttf');
+}
+@font-face {
+  font-family: 'Inter-Bold';
+  font-weight: 700;
+  src: url('Inter-Bold.ttf');
+}
+@font-face {
+  font-family: 'Inter-ExtraBold';
+  font-weight: 800;
+  src: url('Inter-ExtraBold.ttf');
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.pro{
+    display: none;
+
+}
+.app{
+    position: relative;
+    top: 50px;
+}
+.home{
+        left: 300px;
+        position: relative;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Inter-Light';
+        gap: 30px;
+}
+hr{
+    position: relative;
+    width: 260px;
+    border: 1px solid;
+    top: 15px;
+    height: 3;
+    color: rgba(255, 255, 255, 0.192);
+}
+.Retro{
+    height: 100px;
+}
+.when{
+    position: relative;
+    left: 29px;
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+    color:rgba(0, 0, 0, 0.534);
+    font-weight: 700;
+}
+.Reviving{
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 200px;
+    top: 30px;
+}
+.upgrades{
+    display:flex;
+    position: absolute;
+}
+.modern{
+    position: relative;
+    top: 15rem;
+    
+}
+.given{
+ margin: 0px;
+ position: relative;
+ font-size: 13px;
+ font-weight: 400;
+ font-family: 'Inter-Light';
+ top: 60px;
+ right: 12.5rem;
+ display: grid;
+ grid-template-columns: 180px;
+}
+.upgrade{   
+    display:flex;
+    top: 0px;
+    position: absolute;
+}
+.upgrade_{
+    
+    display:flex;
+    top: 0px;
+    position: absolute;
+}
+.mobile{
+    display: none;
+}
+@media only screen and (min-width: 375px){
+    .pro{
+        position: absolute;
+        display: block;
+        left: 280px;
+        top: 10px;
+        margin: 0px;
+    }
+    .app{
+        width: 100px;
+        left: 20px;
+    }
+    .web{
+        display: none;
+    }
+    .mobile{
+        position: relative;
+        display: block;
+        height: 200px;
+        width: 320px;
+        top: 20px;
+    }
+    .home{
+        display: none;
+    }
+    .bright{
+    font-size: 40px;
+    top: 50px;
+    margin: 0px;
+    font-weight: 800;
+    font-family: 'Inter-ExtraBold';
+    position: relative;
+    display: grid;
+    grid-template-columns: 300px;
+
+}
+.evolution{
+    position: relative;
+    display: grid;
+    grid-template-columns: 310px;
+    left: 0px;
+    top: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter-Light';
+}
+.Read-more{
+    height: 35px;
+    width: 160px;
+    top: 550px;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+    letter-spacing: 5px;
+    background-color: rgb(238, 44, 44);
+    color: white;
+    position: absolute;
+}
+.upgrade{
+    display: flex;
+    width: 300px;
+    top: 140px;
+    position: absolute;
+}
+.upgrades{
+    display:flex;
+   
+    width: 300px;
+    position: absolute;
+}
+.upgrade_{
+    display:flex;
+    width: 300px;
+    top: 280px;
+    position: absolute;
+}
+.New .head{
+    color: rgb(236, 154, 30);
+    position: relative;
+    font-size: 25px;
+    left: 20px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+}
+.New .hydrogen{
+    color: white;
+    position: relative;
+    left: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+}
+.New .catch{
+    display: grid;
+    grid-template-columns: 255px;
+    position: relative;
+    margin: 0px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Inter-Light';
+    left: 20px;
+}
+.when{
+    position: relative;
+    left: 29px;
+    margin: 0px;
+    top: 0px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+    color:rgba(0, 0, 0, 0.534);
+    font-weight: 700;
+}
+.New{
+    position: absolute;
+    height: 430px;
+    background-color: black;
+    width: 310px;
+    top: 620px; 
+}
+.modern{
+    position: relative;
+    top: 39rem;
+    display: grid;
+    grid-column: 5px; 
+}
+}
+@media only screen and (min-width: 768px){
+    .app{
+        position: absolute;
+        left: 500px;
+    }
+}
+@media only screen and (min-width: 1024px){
+
+    .app{
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        left: 150px;
+        top: 50px;
+        width: auto;
+    }
+    .bright{
+    font-size: 40px;
+    top: 70px;
+    margin: 0px;
+    font-weight: 800;
+    font-family: 'Inter-ExtraBold';
+    position: relative;
+    display: grid;
+    right: 40px;
+    grid-template-columns: 260px;
+
+}
+.Read-more{
+    height: 35px;
+    width: 160px;
+    top: 450px;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+    letter-spacing: 5px;
+    background-color: rgb(238, 44, 44);
+    color: white;
+    left: 320px;
+    position: absolute;
+}
+    .pro{
+        display: none;
+    }
+    .evolution{
+    position: relative;
+    display: grid;
+    grid-template-columns: 310px;
+    left: 10px;
+    top: 65px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter-Light';
+}
+    .mobile{
+        display: none;
+    }
+    .future{
+        display: flex;
+    }
+    .web{
+        display: block;
+         position: relative;
+         height: 260px;
+         width: 640px;
+         top: 60px;
+         right: 40px;
+    }
+    .logo{
+        position: relative;
+        height: 30px;
+        left: 10px;
+    }
+    .home{
+        display: block;
+        left: 610px;
+        display: flex;
+        position: absolute;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Inter-Light';
+        gap: 30px;
+    }
+    .New{
+    position: absolute;
+    height: 430px;
+    background-color: black;
+    width: 310px; 
+    margin: 0px;
+    top: 60px;
+    left: 670px;
+}
+.New .head{
+    color: rgb(236, 154, 30);
+    position: relative;
+    font-size: 25px;
+    left: 20px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+}
+.New .hydrogen{
+    color: white;
+    position: relative;
+    left: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+}
+.New .catch{
+    display: grid;
+    grid-template-columns: 255px;
+    position: relative;
+    margin: 0px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Inter-Light';
+    left: 20px;
+
+}
+.upgrade{
+    
+    display:flex;
+    top: 0px;
+    left: 19.5rem;
+    position: absolute;
+}
+.upgrade_{
+    
+    display:flex;
+    top: 0px;
+    left: 41.3rem;
+    position: absolute;
+}
+
+.upgrades{
+    display:flex;
+    left: 0px;
+    position: absolute;
+}
+.modern{
+    position: relative;
+    top: 8rem;
+    right: 2.5rem;
+
+    
+}
+}
+@media only screen and (min-width: 1440px){
+
+    .app{
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        left: 150px;
+        top: 50px;
+        width: auto;
+    }
+    .bright{
+    font-size: 40px;
+    top: 70px;
+    margin: 0px;
+    font-weight: 800;
+    font-family: 'Inter-ExtraBold';
+    position: relative;
+    display: grid;
+    right: 40px;
+    grid-template-columns: 260px;
+
+}
+.Read-more{
+    height: 35px;
+    width: 160px;
+    top: 450px;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+    letter-spacing: 5px;
+    background-color: rgb(238, 44, 44);
+    color: white;
+    left: 320px;
+    position: absolute;
+}
+    .pro{
+        display: none;
+    }
+    .evolution{
+    position: relative;
+    display: grid;
+    grid-template-columns: 310px;
+    left: 10px;
+    top: 65px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter-Light';
+}
+    .mobile{
+        display: none;
+    }
+    .future{
+        display: flex;
+        
+    }
+    .web{
+        display: block;
+         position: relative;
+         height: 260px;
+         width: 640px;
+         top: 60px;
+         right: 40px;
+    }
+    .logo{
+        position: relative;
+        height: 30px;
+        left: 10px;
+    }
+    .home{
+        display: block;
+        left: 610px;
+        display: flex;
+        position: absolute;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Inter-Light';
+        gap: 30px;
+    }
+    .New{
+    position: absolute;
+    height: 430px;
+    background-color: black;
+    width: 310px; 
+    margin: 0px;
+    top: 60px;
+    left: 670px;
+}
+.New .head{
+    color: rgb(236, 154, 30);
+    position: relative;
+    font-size: 25px;
+    left: 20px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+}
+.New .hydrogen{
+    color: white;
+    position: relative;
+    left: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+}
+.New .catch{
+    display: grid;
+    grid-template-columns: 255px;
+    position: relative;
+    margin: 0px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Inter-Light';
+    left: 20px;
+
+}
+.upgrade{
+    
+    display:flex;
+    top: 0px;
+    position: absolute;
+}
+.upgrade_{
+    left: 41rem;
+    display:flex;
+    top: 0px;
+    position: absolute;
+}
+.upgrade{
+    display: flex;
+    left: 20rem;
+    position: absolute;
+}
+.upgrades{
+    display:flex;
+    right: 5rem;
+    position: absolute;
+}
+.modern{
+    position: relative;
+    top: 8rem;
+    right: 2.5rem;
+    
+}
+}
